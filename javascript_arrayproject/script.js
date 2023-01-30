@@ -1,48 +1,4 @@
-// const main=document.getElementById('main');
-// const adduserbtn=document.getElementById('add-user');
-// const doublebtn=document.getElementById('Double');
-// const millionairebtn=document.getElementById('show-millionairs');
-// const sortbtn=document.getElementById('sort');
-// const entirewealthbtn=document.getElementById('calculate-wealth');
-// getRandomUser();
-// getRandomUser();
-// getRandomUser();
-// let data =[];
 
-// //fetch random user and add money
-
-// async function getRandomUser(){
-//     const res = await fetch('https://randomuser.me/api/')
-//     const data = await res.json();
-
-//     const user =data.results[0];
-//     const newuser ={
-//         name: `${user.name.first} ${user.name.last}`,
-//         money: Math.floor(Math.random()*1000000),
-
-//     };
-// // ADD NEW OBJECT TO THE DATA ARR
-//     addData(newuser);
-//     data.push(obj);
-
-//  updateDOM();
-// }
-
-// //update DOM
-
-// function updateDOM(providedData = data){
-//     //clear main div
-//     main.innerHTML='<h2><strong>Person</strong> wealth</h2>';
-
-//     providedData.forEach(item=>{
-//         const element = document.createElement('div');
-//         element.classList.add('person');
-//         element.innerHTMl =`<strong>${item.name}</strong>${item.money}`;
-//         main.appendChild(element);
-//     });
-
-
-// }
 const main = document.getElementById('main');
 const addUserBtn = document.getElementById('add-user');
 const doubleBtn = document.getElementById('double');
